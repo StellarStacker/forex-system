@@ -36,11 +36,12 @@ public class ForexService {
     }
     
     public static void main(String[] args) throws Exception{
-       String apiReponse = getRates();
-       parseApi(apiReponse);
+       String apiResponse = getRates();
+       parseApi(apiResponse);
     }
     
-    public static void parseApi(String apiReponse){
+    public static void parseApi(String apiResponse){
+        System.out.println("The parsed API response is " + apiResponse);
         
     }
 }
