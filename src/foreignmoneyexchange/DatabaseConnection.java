@@ -25,7 +25,7 @@ public class DatabaseConnection {
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(ForeignMoneyExchange.class.getName()).log(Level.SEVERE, null, ex);
         }
-        connection = DriverManager.getConnection("jdbc:sqlite:Z:\\OOSE\\forex-system\\database\\forex.db");
+        connection = DriverManager.getConnection("jdbc:sqlite:/home/tharanetharan/Downloads/ForeignMoneyExchange/database/forex.db");
         System.out.println("Database connection succeeded");
     }
     
