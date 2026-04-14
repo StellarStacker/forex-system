@@ -1,0 +1,17 @@
+# ========================= Build folders (IGNORE) =========================
+build/ dist/ target/
+# ========================= Compiled Java files =========================
+*.class
+# ========================= NetBeans specific =========================
+nbproject/private/ nbproject/private/private.xml nbproject/private/config.properties
+# Keep important NetBeans config
+!nbproject/project.xml nbproject/project.properties
+# ========================= Database files ========================= ========================= Logs 
+# =========================
+*.log
+# ========================= OS files =========================
+.DS_Store Thumbs.db
+# ========================= IDEs (optional safety) =========================
+.idea/ .vscode/ *.iml
+# ========================= Backup / temp files =========================
+*.swp *.bak *~
