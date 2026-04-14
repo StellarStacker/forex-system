@@ -6,8 +6,9 @@ build/ dist/ target/
 nbproject/private/ nbproject/private/private.xml nbproject/private/config.properties
 # Keep important NetBeans config
 !nbproject/project.xml nbproject/project.properties
-# ========================= Database files ========================= ========================= Logs 
-# =========================
+# ========================= Database files =========================
+*.db *.sqlite
+#========================= Logs  =========================
 *.log
 # ========================= OS files =========================
 .DS_Store Thumbs.db
